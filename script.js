@@ -44,36 +44,36 @@ var pet = {
     },
 };
 
-// while(true){
-//     let action = +prompt(`What would you like to do\n1.Feed \n2.Play \n3.Age \n4.GEt Info \n5.Get Exit`);
+while(true){
+    let action = +prompt(`What would you like to do\n1.Feed \n2.Play \n3.Age \n4.GEt Info \n5.Get Exit`);
 
-//     switch (action) {
-//         case 1:
-//             pet.feed();
-//             break;
+    switch (action) {
+        case 1:
+            pet.feed();
+            break;
     
-//         case 2:
-//             pet.play();
-//             break;
+        case 2:
+            pet.play();
+            break;
     
-//         case 3:
-//             pet.agePet();
-//             break;
+        case 3:
+            pet.agePet();
+            break;
     
-//         case 4:
-//             pet.getInfo();
-//             break;
+        case 4:
+            pet.getInfo();
+            break;
     
-//         case 5:
-//             alert("Thanks for the playing with the pet!");
-//             break;
+        case 5:
+            alert("Thanks for the playing with the pet!");
+            break;
     
-//         default:
-//             alert("Invalid choice!");
-//             break;
-//     }
+        default:
+            alert("Invalid choice!");
+            break;
+    }
 
-//     if(action === 5){
-//         break;
-//     }
-// }
+    if(action === 5){
+        break;
+    }
+}
